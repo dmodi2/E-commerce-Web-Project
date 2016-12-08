@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BestDeals</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--
+spigot, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
+
+Download: http://zypopwebtemplates.com/
+
+License: Creative Commons Attribution
+//-->
+<script type="text/javascript" src="ajax.js"></script>
+<style>
+form {
+	border: 3px solid #f1f1f1;
+	width: 55%;
+	margin: 0 auto;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.form_container {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 200px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body onload="init()">
+	<div id="container">
+		<header>
+			<h1>
+				<a href="HomeServlet?value=displayHome">Best<span>Deals</span></a>
+			</h1>
+			<h2>You won't find a better deal anywhere else.</h2>
+			<h5 style="float: right; padding-right: 30px;">
+				<a href="Login.html"> Login</a>
+			</h5>
+		</header>
+		<nav>
+			<div style="float: left; width: 50%">
+				<ul>
+					<li><a href="HomeServlet?value=displayHome">Home</a></li>
+					<li><a href="DisplayProductServlet?value=displayCategory">Products</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Customer Reviews</a></li>
+				</ul>
+			</div>
+			<div style="float:left; width:25%; height:30px; margin-top: 25px;" align="right">
+				<label style="color: #eee;">Search BestDeals: &nbsp&nbsp</label>
+			</div>
+			<div class="autofillform" style="float:left; height:30px; margin-top: 25px;">
+				<input type="text" name="searchId" id="searchId" value="" class="input" onkeyup="doCompletion()"
+				placeholder="  Search here.." autocomplete="on" style="height: 25px; font-size: 15px; width: 220px;"/>
+			<div id="autocompleteContainer" style="height: auto;">
+					<table id="complete-table" 
+					style="position: absolute; border-collapse: collapse; background: white; font-size: 14px; width: 195px;">
+					</table>
+			</div>	
+			</div>
+		</nav>
+		<img class="header-image" src="images/BestDealsHome.jpg" width="960"
+			height="250" alt="Buildings" />
+		<div id="body">
+			<section id="content">
+				<form class="register" action='HomeServlet' method="POST">
+					<input type="hidden" id="form" name="form" value="register">
+					<div class="form_container">
+						<div align="center">
+							<h2>Registration Form</h2>
+							<br>
+						</div>
+						<label class="control-label" for="username">Username</label> 
+						<input type="text" id="username" name="username" class="input-xlarge" required> 
+						
+						<label class="control-label" for="email">E-mail</label>
+						<input type="text" id="email" name="email" class="input-xlarge"
+							required> 
+							
+							<label class="control-label" for="address">Address</label>
+						<input type="text" id="address" name="address"
+							class="input-xlarge" required> 
+							
+							<label
+							class="control-label" for="dob">Date of birth</label><br> <input
+							type="date" id="dob" name="dob" class="input-xlarge" required><br>
+						<br> 
+						
+						<label class="control-label" for="password">Password</label>
+						<input type="password" id="password" name="password"
+							class="input-xlarge" required> 
+							
+							<label
+							class="control-label" for="password_confirm">Password
+							(Confirm)</label> <input type="password" id="password_confirm"
+							name="password_confirm" class="input-xlarge" required>
+
+						<button class="btn btn-success">Register</button>
+					</div>
+				</form>
+
+			</section>
+			<aside class="sidebar">
+
+				<ul>
+					<li>
+						<h4>Categories</h4>
+						<ul>
+							<li><a href="DisplayProductServlet?value=Laptop">Laptops</a></li>
+							<li><a href="DisplayProductServlet?value=Tablet">Tablets</a></li>
+							<li><a href="DisplayProductServlet?value=SmartPhone">Smart Phones</a></li>
+							<li><a href="DisplayProductServlet?value=TV">TV</a></li>
+							<li><a href="DisplayProductServlet?value=accessories">Accessories</a></li>
+							<li><a href="TrendingServlet?value=viewTrending">Trending</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>Helpful Links</h4>
+						<ul>
+							<li><a
+								href="http://www.xbox.com/en-US/xbox-one-s?&ocid=PORTALS_SEM_google_xbox%20one&cid=PORTALS_SEM_google_xbox%20one"
+								title="premium templates">Microsoft Xbox OneS</a></li>
+							<li><a href="http://www.bestbuy.com/" title="web hosting">Best
+									Buy</a></li>
+							<li><a href="https://www.playstation.com/en-us/explore/ps4/"
+								title="Tux Themes">Sony PS4</a></li>
+						</ul>
+					</li>
+
+				</ul>
+
+			</aside>
+			<div class="clear"></div>
+		</div>
+		<footer>
+			<div class="footer-content">
+				<ul>
+					<li><h4>About Us</h4></li>
+				</ul>
+
+				<ul>
+					<li><h4>Contact Us</h4></li>
+				</ul>
+
+				<ul class="endfooter">
+					<li><h4>Careers</h4></li>
+				</ul>
+
+				<div class="clear"></div>
+			</div>
+			<div class="footer-bottom">
+				<p>
+					<a href="http://web.iit.edu/">This website was built at IIT.</a> by
+					Dhruvit Modi
+				</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

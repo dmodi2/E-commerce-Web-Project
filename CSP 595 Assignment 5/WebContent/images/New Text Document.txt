@@ -1,0 +1,48 @@
+<div align="center">
+					<h1 style="color: #555">
+							+ Category +
+					</h1>
+				</div>
+				<br>
+					<table id="table">
+						<tr>
+							<td><img class="header-image" src="images/<%=prod.getImage_path()%>" width="300"
+								height="200" alt="Buildings" />
+							</td>
+							<td>
+								<h5 style="text-decoration: underline; color: blue;">
+									<%
+										out.println(prod.getMake() + " " + prod.getModel());
+									%>
+								</h5>
+								<h5>
+									Price:
+									<%
+									out.println(" $" + prod.getPrice());
+								%>
+								</h5>
+								<h5>
+									Discount:
+									<%
+									out.println(" " + prod.getDiscount() + "%");
+								%>
+								</h5>
+								<h5>
+									Condition:
+									<%
+									out.println(" " + prod.getCondition());
+								%>
+								</h5>
+								<h5>
+									Rating:
+									<%
+									out.println(" " + prod.getRating());
+								%>
+								</h5>
+								<a href="HomeServelet" class="button">Add To Cart</a>
+							</td>
+						</tr>
+						<%
+							}
+						%>
+					</table>

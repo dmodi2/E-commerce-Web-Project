@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="true" version="3.0">
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+  <welcome-file-list>
+    <welcome-file>InitServlet</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>controller.InitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/InitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>controller.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DisplayProductServlet</servlet-name>
+    <servlet-class>controller.DisplayProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayProductServlet</servlet-name>
+    <url-pattern>/DisplayProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ManagerServlet</servlet-name>
+    <servlet-class>controller.ManagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagerServlet</servlet-name>
+    <url-pattern>/ManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>controller.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <servlet-class>controller.CheckoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <url-pattern>/CheckoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserHomeServlet</servlet-name>
+    <servlet-class>controller.UserHomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserHomeServlet</servlet-name>
+    <url-pattern>/UserHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CustomerOrderServlet</servlet-name>
+    <servlet-class>controller.CustomerOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerOrderServlet</servlet-name>
+    <url-pattern>/CustomerOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ReviewServlet</servlet-name>
+    <servlet-class>controller.ReviewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewServlet</servlet-name>
+    <url-pattern>/ReviewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TrendingServlet</servlet-name>
+    <servlet-class>controller.TrendingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrendingServlet</servlet-name>
+    <url-pattern>/TrendingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AutocompleteServlet</servlet-name>
+    <servlet-class>controller.AutocompleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AutocompleteServlet</servlet-name>
+    <url-pattern>/AutocompleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DealMatchesUtilitiesServlet</servlet-name>
+    <servlet-class>controller.DealMatchesUtilitiesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DealMatchesUtilitiesServlet</servlet-name>
+    <url-pattern>/DealMatchesUtilitiesServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

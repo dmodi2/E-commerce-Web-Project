@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductData>
+
+	<product id="1" retailer="BestDeals">
+		<category>TV</category>
+		<make>Samsung</make>
+		<model>KU7500</model>
+		<image>Samsung KU7500.png</image>
+		<price>800</price>
+		<discount>0</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>wall_mount </accessory>
+		</accessories>
+	</product>
+	
+	<product id="2" retailer="BestDeals">
+		<category>TV</category>
+		<make>LG</make>
+		<model>RL200</model>
+		<image>RL200.jpg</image>
+		<price>600</price>
+		<discount>5</discount>
+		<condition>Refurbished</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>wall_mount, chromecast</accessory>
+		</accessories>
+	</product>
+	
+	<product id="3" retailer="BestDeals">
+		<category>TV</category>
+		<make>Huwaie</make>
+		<model>Visio</model>
+		<image>TV.jpg</image>
+		<price>500</price>
+		<discount>0</discount>
+		<condition>New</condition>
+		<rating>5</rating>
+		<accessories>
+			<accessory>wall_mount</accessory>
+		</accessories>
+	</product>
+	
+	<product id="4" retailer="BestDeals">
+		<category>Laptop</category>
+		<make>Dell</make>
+		<model>Dell Alienware 17</model>
+		<image>Dell Alienware 17.jpg</image>
+		<price>1200</price>
+		<discount>5</discount>
+		<condition>New</condition>
+		<rating>5</rating>
+		<accessories>
+			<accessory>mouse, wireless mouse</accessory>
+		</accessories>
+	</product>
+	
+	<product id="5" retailer="BestDeals">
+		<category>Laptop</category>
+		<make>Dell</make>
+		<model>XPS12</model>
+		<image>Dell XPS12.png</image>
+		<price>800</price>
+		<discount>10</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>wireless mouse</accessory>
+		</accessories>
+	</product>
+	
+	<product id="6" retailer="BestDeals">
+		<category>Laptop</category>
+		<make>Asus</make>
+		<model>Inspire 2nd Gen</model>
+		<image>laptop.jpg</image>
+		<price>750</price>
+		<discount>0</discount>
+		<condition>Refurbished</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>mouse, usb</accessory>
+		</accessories>
+	</product>
+	
+	<product id="7" retailer="BestDeals">
+		<category>Smartphone</category>
+		<make>Apple</make>
+		<model>iPhone 7</model>
+		<image>smartphone.jpeg</image>
+		<price>700</price>
+		<discount>0</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>earphone, charger</accessory>
+		</accessories>
+	</product>
+	
+	<product id="8" retailer="BestDeals">
+		<category>Smartphone</category>
+		<make>Samsung</make>
+		<model>Galaxy S7 Edge</model>
+		<image>Samsung Galaxy S7 Edge.jpg</image>
+		<price>600</price>
+		<discount>5</discount>
+		<condition>Refurbished</condition>
+		<rating>3</rating>
+		<accessories>
+			<accessory>earphone, charger</accessory>
+		</accessories>
+	</product>
+	
+	<product id="9" retailer="BestDeals">
+		<category>Smartphone</category>
+		<make>LG</make>
+		<model>Nexus 5</model>
+		<image>LG Nexus 5.jpeg</image>
+		<price>450</price>
+		<discount>0</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>earphone, charger</accessory>
+		</accessories>
+	</product>
+	
+	<product id="10" retailer="BestDeals">
+		<category>Tablet</category>
+		<make>Apple</make>
+		<model>iPad Pro</model>
+		<image>iPad Pro.jpg</image>
+		<price>650</price>
+		<discount>12</discount>
+		<condition>Refurbished</condition>
+		<rating>4.5</rating>
+		<accessories>
+			<accessory>earphone, charger</accessory>
+		</accessories>
+	</product>
+	
+	<product id="11" retailer="BestDeals">
+		<category>Tablet</category>
+		<make>Microsoft</make>
+		<model>Surface pro</model>
+		<image>SurfacePro.jpg</image>
+		<price>750</price>
+		<discount>0</discount>
+		<condition>New</condition>
+		<rating>5</rating>
+		<accessories>
+			<accessory>earphone, charger</accessory>
+		</accessories>
+	</product>
+	
+	<product id="12" retailer="BestDeals">
+		<category>Tablet</category>
+		<make>Dell</make>
+		<model>Sharp 2</model>
+		<image>tablet.jpg</image>
+		<price>600</price>
+		<discount>5</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>earphone, charger</accessory>
+		</accessories>
+	</product>
+	
+	<product id="13" retailer="BestDeals">
+		<category>TV</category>
+		<make>LG</make>
+		<model>55LF</model>
+		<image>55LF.jpg</image>
+		<price>1400</price>
+		<discount>7</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>chromecast wall_mount </accessory>
+		</accessories>
+	</product>
+	
+	<product id="14" retailer="BestDeals">
+		<category>TV</category>
+		<make>Apple</make>
+		<model>AppleTv</model>
+		<image>appletv.jpg</image>
+		<price>2000</price>
+		<discount>0</discount>
+		<condition>New</condition>
+		<rating>5</rating>
+		<accessories>
+			<accessory>earphone wall_mount </accessory>
+		</accessories>
+	</product>
+	
+	<product id="15" retailer="BestDeals">
+		<category>Laptop</category>
+		<make>HP</make>
+		<model>SplitX2</model>
+		<image>splitx2.jpg</image>
+		<price>900</price>
+		<discount>5</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>mouse earphone usb </accessory>
+		</accessories>
+	</product>
+	
+	<product id="16" retailer="BestDeals">
+		<category>Laptop</category>
+		<make>Apple</make>
+		<model>Macbook Pro</model>
+		<image>macbookpro.jpg</image>
+		<price>2100</price>
+		<discount>15</discount>
+		<condition>Refurbished</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>mouse earphone usb </accessory>
+		</accessories>
+	</product>
+	
+	<product id="17" retailer="BestDeals">
+		<category>Tablet</category>
+		<make>LG</make>
+		<model>G Pad</model>
+		<image>lggpad.jpg</image>
+		<price>450</price>
+		<discount>0</discount>
+		<condition>Refurbished</condition>
+		<rating>3</rating>
+		<accessories>
+			<accessory>earphone charger </accessory>
+		</accessories>
+	</product>
+	
+	<product id="18" retailer="BestDeals">
+		<category>Smartphone</category>
+		<make>Google</make>
+		<model>Pixel</model>
+		<image>Pixel.png</image>
+		<price>750</price>
+		<discount>5</discount>
+		<condition>New</condition>
+		<rating>5</rating>
+		<accessories>
+			<accessory>earphone charger </accessory>
+		</accessories>
+	</product>
+	
+	<product id="19" retailer="BestDeals">
+		<category>Smartphone</category>
+		<make>Motorola</make>
+		<model>Moto Z Force</model>
+		<image>motoZForce.jpg</image>
+		<price>850</price>
+		<discount>10</discount>
+		<condition>New</condition>
+		<rating>4</rating>
+		<accessories>
+			<accessory>earphone charger phone_cover </accessory>
+		</accessories>
+	</product>
+	
+</ProductData>
